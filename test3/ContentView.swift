@@ -15,7 +15,7 @@ class ShapesViewModel: ObservableObject {
     @Published var score: Int = 0
     
     private var timer: AnyCancellable?
-    private let shapeCount = 10
+    private let shapeCount = 20
     
     init() {
         generateShapes()
